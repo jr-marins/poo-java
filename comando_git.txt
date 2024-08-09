@@ -1,3 +1,7 @@
 ## para iniciar um repositório ##
 
 1° git init (inicializa a criação do arq de config do git)
+2° No git ir para new repository
+3° escolher um nome e deixa-lo publico ou privado.
+4° em seguida haverá, dando um scroll na pg, três comandos que é só copiar e colar no prompt do git bash
+Esses comandos se baseiam em conectar com o repositório remoto e ativa-lo.
