@@ -1,0 +1,61 @@
+CONCEITOS BÁSICOS
+
+Estruturas de Controle
+    Seleção (if... else, switch... case)
+    Repetição (while, do...while, for)
+
+##############################################################################
+
+ESCREVENDO NO CONSOLE
+
+System.out é a saída padrão, que exibe Strings no console, existem 3 formas de
+gerar a saída: println, print e printf.
+
+    System.out.println(): Gera uma string como saída e pula uma linha
+    System.out.println(“Seu texto”);
+    System.out.print(): Gera uma string como saída e não pula de linha (deixa o
+    cursor na mesma linha)
+    System.out.print(“Seu texto”);
+
+    System.out.printf(): A letra “f” significa “formatted”, permite escrever texto
+    fixo com partes específicas a serem formatadas:
+    System.out.print(“Seu texto %s”, “Primeiro parâmetro”);
+
+Especificadores de formato
+
+    %d representa números inteiros
+    %f representa números flutuantes
+    %s representa Strings
+    %b representa valores booleanos
+    %c representa valores char
+
+######################################################################################
+
+CLASSE SCANNER
+Implementa operações de entrada de dados pelo teclado
+A classe Scanner possui vários métodos que possibilitam a entrada de
+dados de diferentes tipos, entre eles destacam-se:
+    • next() - retorna uma cadeia de caracteres simples
+    • nextDouble() - retorna um número em notação de ponto flutuante
+    • hasNextDouble() - retorna true se o próximo dado de entrada pode
+    ser interpretado como um valor double;
+    • nextInt() - retorna um número inteiro;
+    • hasNextInt() - retorna true se o próximo dado de entrada pode ser
+    interpretado como um valor int;
+    • nextLine() - retorna uma cadeia de caracteres;
+    • nextLong() - retorna um número inteiro de 64 bits.
+
+LENDO DO CONSOLE
+
+// Importe o pacote java.util
+import java.util.Scanner;
+
+// Instancie um objeto Scanner
+Scanner ler = new Scanner(System.in);
+
+// Lendo valor inteiro
+int n = ler.nextInt();
+
+// Lendo um valor decimal
+double n = ler.nextdouble();
+
